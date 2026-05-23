@@ -10,7 +10,9 @@ import java.util.List;
 public class DemoApplication {
 
     public static void main(String[] args) {
-       SpringApplication.run(DemoApplication.class, args);
+        System.out.println("111222");
+        System.out.println("111222");
+        SpringApplication.run(DemoApplication.class, args);
     }
     
     public static int maxSubArray2(int[] nums) {
